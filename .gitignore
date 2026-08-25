@@ -1,0 +1,29 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local logs
+*.log
+logs/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Editor and IDE temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.tmp
